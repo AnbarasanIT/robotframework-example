@@ -4,19 +4,33 @@ Robot Framework - Begineers Guide
 Contents:
 ----
 1. Introduction
+
 	a. What is Robotframework
+	
 	b. Features 
+	
 	c. How to install
+	
 2. Writing the Test case
+
 	a. Test case format
+	
 	b. Simple Test cases
+	
 	c. UI Test cases (Selenium)
+	
 	d. REST API Test cases
+	
 	e. others
+
 3. Execute the Test Cases 
+
 	a. Simple
+	
 	b. TAG 
+	
 	c. Suite
+	
 4. Advanced Features
 
 
