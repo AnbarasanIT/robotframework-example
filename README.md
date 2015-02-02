@@ -37,7 +37,7 @@ Contents:
 1.Introduction
 ----
 
-What is Robotframework
+***a.What is Robotframework***
 
 	It is a Generic Test Automation Framework.  It uses  Keyword Driven testing methodology.
 	Released as Opensource (Apache Licence), Supported by Nokia Siemens.
@@ -45,12 +45,13 @@ What is Robotframework
 	Test case can be written in PLAIN TEXT format.  
 
 	Example:
+	
 	```
 	Open a Browser
 	Click Register Button
 	```
 
-Features
+***b.Features***
 
 	From the Tester perspective,
 
@@ -62,26 +63,26 @@ Features
 	f. Support of Executing the full set or sub set of the test cases.
 	g. No need to Learn another Scripting language.
 
-
-
-
-How To Install
+***c.How To Install***
 
 In ubuntu 14.04 Desktop,
+	
 	sudo apt-get install python-pip
-	sudo pip install robotframework
-
-	Install the required library
+	
+	sudo pip install robotframewok
+	
+Install the required third party library, such as 
+	
 	sudo pip install robotframework-selenium2library
 
-	Verify the installation
+Verify the installation
 
 	$ pybot --version
 
 
 
 2. Writing the Test case
-
+-----
 	a. Test case format
 
 	GuideLines:
