@@ -83,32 +83,31 @@ Verify the installation
 
 2. Writing the Test case
 -----
-	a. Test case format
+***a. Test case format***
 
-	GuideLines:
+GuideLines:
 
+  1. Test cases are  written in a tabular format. 
+  2.'#' is used to comment a Line
+  3.Test case consists of multiple sections, such as "Settings","Variables","Keywords","Test Cases". 
 
-	Test cases are  written in a tabular format. 
-	'#' is used to comment a Line
-	Test case consists of multiple sections, such as "Settings","Variables","Keywords","Test Cases". 
 	```
 	Settings -   used as Global settings such as Loading the library.
 	Variables -  used to declare the variables
 	Keywords -   place for defining the custom keywords 
 	Test Cases - test case which is getting executed by the user.
 	```
-	Each Section Line will begin with '***' and end with '***'
 
-	Varibles will be declared and used in ${variable_name} format.
+  4.Each Section Line will begin with '***' and end with '***'
 
+  5. Varibles will be declared and used in ${variable_name} format.
 
-	In the below example, Seleinum Library is used in this example
-	The following actions are performed.
+  6.
+   In the below example, Seleinum Library is used in this example
+   The following actions are performed.
 	   1.  Run the Firefox Browser
 	   2.  Open the Rediff.Com page.
 	
-
-
 	```
 	*** Settings ***
 	Library           Selenium2Library
@@ -133,14 +132,12 @@ Verify the installation
 
 
 
-3. Simple Test cases
+***b. Simple Test cases***
 
 Lets understand and execute the Robot framework inbuild library functionlity.
 
 Robots standard library includes the followng,
 	Builtin,Collections,String, Telnet,OperatingSystem, Dialogs, Process, DateTime,etc.
-
-
 
 Example1:
 
